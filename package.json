@@ -1,0 +1,22 @@
+{
+  "name": "parcelx",
+  "version": "1.0.0",
+  "description": "",
+  "main": " .js",
+  "scripts": {
+    "dev": "./node_modules/.bin/parcel src/index.html",
+    "prod": "./node_modules/.bin/parcel build src/index.html"
+  },
+  "keywords": [
+    "D3.js example",
+    "Smiley Face with d3.js"
+  ],
+  "author": "danielox",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  },
+  "dependencies": {
+    "d3": "^5.9.7"
+  }
+}
